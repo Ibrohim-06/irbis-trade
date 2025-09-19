@@ -6,11 +6,13 @@ import { AppProvider } from './context/context.jsx'
 import { HelmetProvider } from 'react-helmet-async'
 
 createRoot(document.getElementById('root')).render(
-  <HelmetProvider>
-    <HashRouter>
-      <AppProvider>
-        <App />
-      </AppProvider>
-    </HashRouter>
-  </HelmetProvider>
+  <React.StrictMode>
+    <HelmetProvider>
+      <HashRouter>
+        <AppProvider>
+          <App />
+        </AppProvider>
+      </HashRouter>
+    </HelmetProvider>
+  </React.StrictMode>
 )
