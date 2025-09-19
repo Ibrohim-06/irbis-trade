@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Сушеная вишня",
+      "description": "Натуральная сушеная вишня из Намангана — популярный продукт на экспорт в Россию.",
+      "image": "https://example.com/images/dried-cherries.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Курага",
+      "description": "Узбекская курага из Самарканда — сладкая, органическая и богата витаминами.",
+      "image": "https://example.com/images/dried-apricots.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Изюм",
+      "description": "Сладкий и сочный изюм из Ферганы — идеален для выпечки и перекусов.",
+      "image": "https://example.com/images/raisins.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Инжир сушёный",
+      "description": "Экологически чистый сушёный инжир из южного Узбекистана.",
+      "image": "https://example.com/images/dried-figs.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Финики сушёные",
+      "description": "Крупные и сладкие финики, выращенные в жарких регионах Узбекистана.",
+      "image": "https://example.com/images/dried-dates.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Орехи грецкие сушёные",
+      "description": "Качественные сушёные грецкие орехи — востребованный экспортный товар.",
+      "image": "https://example.com/images/walnuts.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Икат (Адрас)",
+      "description": "Традиционная узбекская ткань ручной работы — популярна в модной индустрии.",
+      "image": "https://example.com/images/ikat.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Узбекский шелк",
+      "description": "Натуральный шелк из Маргилана — используется для одежды премиум-класса.",
+      "image": "https://example.com/images/silk.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Хлопковое волокно",
+      "description": "Узбекистан — один из крупнейших производителей хлопка. Идеально для текстильной промышленности.",
+      "image": "https://example.com/images/cotton.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Сузане",
+      "description": "Национальные узбекские вышивки — ручная работа, используется в интерьере и дизайне.",
+      "image": "https://example.com/images/suzani.jpg"
+    }
+  ]
+}
