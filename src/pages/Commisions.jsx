@@ -10,20 +10,6 @@ export default function ServicesPage() {
   }, [])
   return (
     <DashboardLayout>
-      <Helmet>
-        <title>Наши услуги — IRBIS U.S. | Таможенное оформление и логистика в Узбекистане</title>
-        <meta name="description" content="Профессиональные услуги от IRBIS U.S.: таможенное оформление, внешнеэкономические консультации, логистика, 24/7 поддержка. Доставка и сопровождение контрактов по Узбекистану и миру." />
-        <meta name="keywords" content="таможенное оформление, внешнеэкономическая деятельность, логистика, доставка грузов, ЕЭИС ВО, ТН ВЭД, Узбекистан, IRBIS U.S." />
-        <meta property="og:title" content="Наши услуги — IRBIS U.S." />
-        <meta property="og:description" content="Таможенное оформление, логистика, внешнеэкономические консультации и 24/7 поддержка от экспертов IRBIS U.S." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://irbis-trade.uz/our-services" />
-        <meta property="og:image" content="https://storage.cloupard.uz/irbisuz/irbis_logo.png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Наши услуги — IRBIS U.S." />
-        <meta name="twitter:description" content="Комплексные услуги по таможенной очистке, логистике и сопровождению внешнеэкономической деятельности." />
-        <meta name="twitter:image" content="https://storage.cloupard.uz/irbisuz/irbis_logo.png" />
-      </Helmet>
       <div className="w-full bg-gradient-to-b from-gray-50 to-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold text-center mb-20 text-gray-800">Наши Услуги</h1>

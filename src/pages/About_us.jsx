@@ -25,22 +25,6 @@ export default function AboutUs() {
 
   return (
     <DashboardLayout>
-      <Helmet>
-        <title>О нас | Таможенное оформление и логистика – ЧП "IRBIS U.S."</title>
-        <meta name="description" content="ЧП 'IRBIS U.S.' — эксперты в таможенной очистке грузов с 2014 года. Полный спектр услуг: таможенное оформление, сертификация, логистика и консультации по ВЭД в Узбекистане." />
-        <meta name="keywords" content="таможенное оформление, логистика Узбекистан, ВЭД, сертификация грузов, IRBIS U.S., таможенные услуги, экспедирование, внешнеэкономическая деятельность, оформление онлайн, Аркбулак" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="О нас | ЧП 'IRBIS U.S.' — Таможенное оформление и логистика" />
-        <meta property="og:description" content="Профессиональные услуги по таможенной очистке, сертификации и логистике с 2014 года. Работаем по принципу 'под ключ' в Узбекистане." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://irbis-trade.uz/about-us" />
-        <meta property="og:image" content="https://storage.cloupard.uz/irbisuz/irbis_logo.png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="ЧП 'IRBIS U.S.' — Таможенное оформление и логистика" />
-        <meta name="twitter:description" content="Эксперты в сфере таможенных услуг, логистики и ВЭД в Узбекистане с 2014 года. Индивидуальный подход, онлайн-оформление, прозрачность на каждом этапе." />
-        <meta name="twitter:image" content="https://storage.cloupard.uz/irbisuz/irbis_logo.png" />
-
-      </Helmet>
       <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         {/* Header Section */}
         <div className="text-center mb-16" data-aos="fade-down">
