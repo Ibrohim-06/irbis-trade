@@ -1,16 +1,16 @@
 import React from 'react'
-import { hydrateRoot } from 'react-dom/client'
+import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import { HashRouter } from 'react-router-dom'
 import { AppProvider } from './context/context.jsx'
+import { HelmetProvider } from 'react-helmet-async'
 
-const container = document.getElementById('root')
-
-hydrateRoot(
-  container,
-  <HashRouter>
-    <AppProvider>
-      <App />
-    </AppProvider>
-  </HashRouter>
+createRoot(document.getElementById('root')).render(
+  <HelmetProvider>
+    <HashRouter>
+      <AppProvider>
+        <App />
+      </AppProvider>
+    </HashRouter>
+  </HelmetProvider>
 )

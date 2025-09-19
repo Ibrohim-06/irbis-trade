@@ -41,6 +41,20 @@ const Contact = () => {
 
   return (
     <DashboardLayout>
+      <Helmet>
+        <title>Связаться с IRBIS U.S. — Таможенное оформление и ВЭД</title>
+        <meta name="description" content="Свяжитесь с IRBIS U.S. по вопросам таможенного оформления и внешнеэкономической деятельности. Наш адрес, телефоны, email и форма обратной связи." />
+        <meta name="keywords" content="контакты IRBIS, таможенное оформление, ВЭД, Аркбулак, Зангиата, телефон IRBIS, email IRBIS, IRBIS U.S. Узбекистан" />
+        <meta property="og:title" content="Свяжитесь с IRBIS U.S." />
+        <meta property="og:description" content="Контактная информация, адрес, телефоны и форма связи с IRBIS U.S. — вашим надёжным партнёром в области ВЭД." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://irbis-trade.uz/contacts" />
+        <meta property="og:image" content="https://storage.cloupard.uz/irbisuz/irbis_logo.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Свяжитесь с IRBIS U.S." />
+        <meta name="twitter:description" content="Контакты и форма связи с IRBIS U.S. — консультации по ВЭД и таможенному оформлению." />
+        <meta name="twitter:image" content="https://storage.cloupard.uz/irbisuz/irbis_logo.png" />
+      </Helmet>
       <div className="max-w-6xl mx-auto p-4 md:p-8" data-aos="fade-up">
         <LoadingModal setVisible={setModalVisible} visible={modalVisible} message="Данные успешно отправлены!" onClose={handleCloseModal} />
         <Title level={2} className="mb-6" data-aos="fade-down">

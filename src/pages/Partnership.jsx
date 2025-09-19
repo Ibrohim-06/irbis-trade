@@ -8,6 +8,20 @@ export default function PartnershipPage() {
   const navigate = useNavigate()
   return (
     <DashboardLayout>
+      <Helmet>
+        <title>Партнёрство с IRBIS U.S. — Импорт, экспорт и международное сотрудничество</title>
+        <meta name="description" content="Партнёрство с IRBIS U.S.: поиск клиентов и товаров, помощь с экспортно-импортной документацией, таможенное оформление и финансовая поддержка вашего бизнеса." />
+        <meta name="keywords" content="партнёрство, экспорт, импорт, поиск клиентов, логистика, финансовая поддержка, внешнеэкономическая деятельность, IRBIS U.S." />
+        <meta property="og:title" content="Партнёрство с IRBIS U.S." />
+        <meta property="og:description" content="Сотрудничайте с IRBIS U.S. — от поиска товаров и клиентов до полной поддержки экспортно-импортных операций." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://irbis-trade.uz/partnership" />
+        <meta property="og:image" content="https://storage.cloupard.uz/irbisuz/irbis_logo.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Партнёрство с IRBIS U.S." />
+        <meta name="twitter:description" content="Финансовая и логистическая поддержка для импорта и экспорта. Найдём товары и клиентов по всему миру." />
+        <meta name="twitter:image" content="https://storage.cloupard.uz/irbisuz/irbis_logo.png" />
+      </Helmet>
       <div className="w-full bg-gradient-to-b from-gray-50 to-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold text-center mb-20 text-gray-800">Партнерство</h1>
