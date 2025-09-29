@@ -13,7 +13,7 @@ const Header = () => {
             <div className="containers">
                 <div className="pt-[112px]">
                     <div className="text-center mx-auto max-w-[900px] mt-[80px]">
-                        <strong className="uppercase text-[#0E3074] text-[15px] md:text-[24px] mb-[50px]">ТАМОЖЕННОЕ ОФОРМЛЕНИЕ</strong>
+                        <strong className="uppercase text-white text-[15px] md:text-[24px] mb-[50px]">ТАМОЖЕННОЕ ОФОРМЛЕНИЕ</strong>
                         <h2 className="uppercase text-[23px] md:text-[48px] font-bold text-white">Универсальное решение для всех ваших потребностей в таможне и логистике</h2>
                     </div>
                     <ul className="flex items-center justify-center gap-10 md:gap-20 flex-wrap mt-10">
