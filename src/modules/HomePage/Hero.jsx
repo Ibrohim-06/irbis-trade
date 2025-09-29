@@ -17,7 +17,7 @@ const Hero = () => {
                     </p>
                     <ul className="flex items-center justify-center flex-wrap mt-[40px] gap-[30px]">
                         <li className="w-[269px]">
-                            <h3 className="text-[#0E3074] text-[42px] font-bold">27 лет</h3>
+                            <h3 className="text-[#0E3074] text-[42px] font-bold">11 лет</h3>
                             <p className="font-bold text-[16px]">безупречной репутации на рынке</p>
                         </li>
                         <li className="w-[269px]">

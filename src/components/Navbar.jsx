@@ -39,8 +39,8 @@ const Navbar = () => {
   const location = useLocation().pathname;
   return (
     <nav
-      className={`top-0 bg-[#0E307473] ${
-        location === "/" ? "absolute" : "static bg-[#0E3074]"
+      className={`top-0  ${
+        location === "/" ? "absolute bg-[#0E307473]" : "static bg-[#0E3074]"
       } w-full z-50 mx-auto left-0 right-0 flex items-center justify-between `}
     >
       <Link className="ml-[30px]" to={"/"}>
