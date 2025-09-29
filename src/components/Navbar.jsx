@@ -39,16 +39,16 @@ const Navbar = () => {
   const location = useLocation().pathname;
   return (
     <nav
-      className={`top-0 bg-[#00000070] ${
-        location == "/" && "absolute"
-      } w-full z-50 mx-auto left-0 right-0 flex items-center justify-between py-[10px]`}
+      className={`top-0 bg-[#0E307473] ${
+        location === "/" ? "absolute" : "static bg-[#0E3074]"
+      } w-full z-50 mx-auto left-0 right-0 flex items-center justify-between `}
     >
       <Link className="ml-[30px]" to={"/"}>
         <img
-          className="untouchable"
-          src="https://pub-5d689109f9c54618b392443e150975a9.r2.dev/websiteassets/irbis_logo.svg"
+          className="untouchable w-[190px]"
+          src="https://pub-5d689109f9c54618b392443e150975a9.r2.dev/websiteassets/irbis_new_no_gradient_v11.svg"
           alt="site logo"
-          width="144" 
+          width="150" 
           height="112"
         />
       </Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
           <li key={index}>
             <Link
               to={text.path}
-              className="font-bold md:text-[12px] lg:text-[18px] text-white duration-300 hover:text-[#00bfff] transition linear"
+              className="font-bold py-[10px] md:text-[12px] hover-nav lg:text-[18px] text-white transition linear"
             >
               {text.title}
             </Link>

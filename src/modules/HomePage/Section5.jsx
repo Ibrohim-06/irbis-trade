@@ -8,27 +8,27 @@ const Section5 = () => {
     const section5data = [
         {
             id: 1,
-            img_url: "https://pub-5d689109f9c54618b392443e150975a9.r2.dev/images/app_images/costumerSupport.svg",
+            img_url: "https://pub-5d689109f9c54618b392443e150975a9.r2.dev/images/app_images/costumerSupport_v1.svg",
             title: "Полный спектр услуг УЭО"
         },
         {
             id: 2,
-            img_url: "https://pub-5d689109f9c54618b392443e150975a9.r2.dev/images/app_images/schedule.svg",
+            img_url: "https://pub-5d689109f9c54618b392443e150975a9.r2.dev/images/app_images/schedule_v1.svg",
             title: "Таможенное оформление"
         },
         {
             id: 3,
-            img_url: "https://pub-5d689109f9c54618b392443e150975a9.r2.dev/images/app_images/toDo.svg",
+            img_url: "https://pub-5d689109f9c54618b392443e150975a9.r2.dev/images/app_images/toDo_v1.svg",
             title: "Комплексная логистика"
         },
         {
             id: 4,
-            img_url: "https://pub-5d689109f9c54618b392443e150975a9.r2.dev/images/app_images/fastDelivery.svg",
+            img_url: "https://pub-5d689109f9c54618b392443e150975a9.r2.dev/images/app_images/fastDelivery_v1.svg",
             title: "Автоперевозки"
         },
         {
             id: 5,
-            img_url: "https://pub-5d689109f9c54618b392443e150975a9.r2.dev/images/app_images/train.svg",
+            img_url: "https://pub-5d689109f9c54618b392443e150975a9.r2.dev/images/app_images/train_v1.svg",
             title: "ЖД-перевозки"
         },
     ]
@@ -44,7 +44,7 @@ const Section5 = () => {
             <div className="containers">
                 {/* Title Section with AOS */}
                 <h2 className="uppercase font-bold mb-[20px] text-center text-[34px]" data-aos="fade-up">
-                    <span className="text-[#00bfff]">ВОПРОСЫ</span> ПО ТАМОЖЕННОМУ ОФОРМЛЕНИЮ
+                    <span className="text-[#0E3074]">ВОПРОСЫ</span> ПО ТАМОЖЕННОМУ ОФОРМЛЕНИЮ
                 </h2>
                 <ul className='flex flex-wrap items-center justify-center gap-[20px]'>
                     {section5data.map(item => (

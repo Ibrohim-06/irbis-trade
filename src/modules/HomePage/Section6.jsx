@@ -42,7 +42,7 @@ const Section6 = () => {
             <Toaster position="top-center" reverseOrder={false} />
             <div className="containers">
                 <h2 className="text-[24px] md:text-[34px] text-center font-bold" data-aos="fade-up">
-                    <span className="text-[#00bfff]">ОСТАЛИСЬ ВОПРОСЫ?</span> ЗАДАЙТЕ ИХ НАШИМ СПЕЦИАЛИСТАМ
+                    <span className="text-[#0E3074]">ОСТАЛИСЬ ВОПРОСЫ?</span> ЗАДАЙТЕ ИХ НАШИМ СПЕЦИАЛИСТАМ
                 </h2>
 
                 <div className="flex mt-[55px] items-start md:justify-evenly justify-center">
@@ -66,7 +66,7 @@ const Section6 = () => {
                                 value={username}
                                 onChange={(e) => setUsername(e.target.value)}
                                 required
-                                className="bg-inherit text-black outline-none border-b-[3px] border-b-slate-300 focus:border-b-[#00bfff] transition-all duration-400 w-[256px] md:w-[350px] p-2"
+                                className="bg-inherit text-black outline-none border-b-[3px] border-b-slate-300 focus:border-b-[#0E3074] transition-all duration-400 w-[256px] md:w-[350px] p-2"
                                 type="text"
                             />
                         </label>
@@ -80,7 +80,7 @@ const Section6 = () => {
                                     value={contact}
                                     onChange={(e) => setContact(e.target.value)}
                                     required
-                                    className="bg-inherit text-black outline-none border-b-[3px] border-b-slate-300 focus:border-b-[#00bfff] transition-all duration-300 w-[256px] md:w-[350px] p-2"
+                                    className="bg-inherit text-black outline-none border-b-[3px] border-b-slate-300 focus:border-b-[#0E3074] transition-all duration-300 w-[256px] md:w-[350px] p-2"
                                     type="text"
                                     placeholder="998(__) ___-__-__"
                                 />
@@ -95,14 +95,14 @@ const Section6 = () => {
                                 value={message}
                                 onChange={(e) => setMessage(e.target.value)}
                                 required
-                                className="bg-inherit text-black outline-none border-b-[3px] border-b-slate-300 focus:border-b-[#00bfff] transition-all duration-400 w-[256px] md:w-[350px] p-2"
+                                className="bg-inherit text-black outline-none border-b-[3px] border-b-slate-300 focus:border-b-[#0E3074] transition-all duration-400 w-[256px] md:w-[350px] p-2"
                                 type="text"
                             />
                         </label>
 
                         <button
                             type="submit"
-                            className="w-[256px] p-[14px] bg-[#00bfff] rounded-md skew-x-[-6deg] hover:skew-x-[6deg] transition-all duration-500 text-white"
+                            className="w-[256px] p-[14px] bg-[#0E3074] rounded-md skew-x-[-6deg] hover:skew-x-[6deg] transition-all duration-500 text-white"
                             data-aos="fade-up"
                         >
                             Получить тарифы

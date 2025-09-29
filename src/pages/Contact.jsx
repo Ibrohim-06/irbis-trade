@@ -79,10 +79,10 @@ const Contact = () => {
                 <PhoneOutlined className="text-gray-500 text-lg mt-1 mr-3" />
                 <div className='flex flex-col'>
                   <p className="font-medium">Телефон:</p>
-                  <a href="tel:+998934057755" className="text-gray-300 hover:text-white transition-colors">
+                  <a href="tel:+998934057755" className="!text-[#0E3074] hover:text-white transition-colors">
                     +998 93 405 77 55
                   </a>
-                  <a href="tel:+998975417755" className="text-gray-300 hover:text-white transition-colors">
+                  <a href="tel:+998975417755" className="!text-[#0E3074] hover:text-white transition-colors">
                     +998 97 541 77 55
                   </a>
                 </div>
@@ -91,8 +91,8 @@ const Contact = () => {
               <div className="flex items-start">
                 <MailOutlined className="text-gray-500 text-lg mt-1 mr-3" />
                 <div>
-                  <p className="font-medium">Электронная почта:</p>
-                  <a href="mailto:info@irbis-trade.uz" target="_blank">info@irbis-trade.uz</a>
+                  <p className="font-medium ">Электронная почта:</p>
+                  <a className='!text-[#0E3074]' href="mailto:info@irbis-trade.uz" target="_blank">info@irbis-trade.uz</a>
                 </div>
               </div>
 
@@ -100,12 +100,14 @@ const Contact = () => {
                 <p className="font-medium mb-2">Мы в соцсетях:</p>
                 <div className="flex space-x-2">
                   <Button
+                  className='!text-white !bg-[#0E3074]'
                     icon={<InstagramOutlined />}
                     href="https://www.instagram.com/irbis_us/"
                     target="_blank"
                     shape="circle"
                   />
                   <Button
+                  className='!text- !bg-[#0E3074]'
                     icon={<LinkedinOutlined />}
                     href="https://www.linkedin.com/company/105728056/admin/dashboard/"
                     target="_blank"
@@ -122,13 +124,13 @@ const Contact = () => {
             <Form form={form} layout="vertical" onFinish={onFinish} className="mt-4 relative">
               <span className='absolute top-[121px] z-50 left-[11px]'>+</span>
               <Form.Item name="client_name" label="Имя" rules={[{ required: true, message: "Пожалуйста, введите ваше имя" }]}>
-                <Input placeholder="Ваше имя" />
+                <Input className=' hover:!border-[#0E3074] focus:!border-[#0E3074]' placeholder="Ваше имя" />
               </Form.Item>
 
               <Form.Item name="clinet_phone_number" label="Номер телефона" rules={[{ required: true, message: "Пожалуйста, введите номер телефона" }]}>
                 <Input
                   type="number"
-                  className='!px-[20px]'
+                  className='!px-[20px] hover:!border-[#0E3074] focus:!border-[#0E3074]'
                   onFocus={() => {
                     const current = form.getFieldValue("clinet_phone_number");
                     if (!current) {
@@ -141,11 +143,11 @@ const Contact = () => {
               </Form.Item>
 
               <Form.Item name="message" label="Сообщение" rules={[{ required: true, message: "Пожалуйста, введите сообщение" }]}>
-                <TextArea placeholder="Ваше сообщение" rows={4} />
+                <TextArea className=' hover:!border-[#0E3074] focus:!border-[#0E3074]' placeholder="Ваше сообщение" rows={4} />
               </Form.Item>
 
               <Form.Item>
-                <Button type="primary" htmlType="submit" className="w-full" loading={loading} disabled={loading}>
+                <Button type="primary" htmlType="submit" className="w-full !bg-[#0E3074]" loading={loading} disabled={loading}>
                   Отправить сообщение
                 </Button>
               </Form.Item>

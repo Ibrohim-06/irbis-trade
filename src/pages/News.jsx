@@ -47,14 +47,14 @@ export default function News() {
               </h2>
               <div className="flex justify-between items-center mt-6">
                 <div className="flex items-center">
-                  <Newspaper className="w-5 h-5 text-[#00BFFF] mr-2" />
+                  <Newspaper className="w-5 h-5 text-[#0E3074] mr-2" />
                   <span className="text-gray-600 text-sm">Источник: Kun.uz</span>
                 </div>
                 <a
                   href="https://kun.uz/ru/news/2024/11/29/zakonom-ne-predusmotreno-istrebovaniye-tamojyennymi-organami-doverennosti-u-voditeley-tamojyennyy-komitet"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center text-[#00BFFF] hover:text-blue-800 transition-colors"
+                  className="flex items-center text-[#0E3074] hover:text-blue-800 transition-colors"
                 >
                   <span className="mr-1">Подробнее</span>
                   <ExternalLink className="w-4 h-4" />
@@ -73,14 +73,14 @@ export default function News() {
               </h2>
               <div className="flex justify-between items-center mt-6">
                 <div className="flex items-center">
-                  <Newspaper className="w-5 h-5 text-[#00BFFF] mr-2" />
+                  <Newspaper className="w-5 h-5 text-[#0E3074] mr-2" />
                   <span className="text-gray-600 text-sm">Источник: Kun.uz</span>
                 </div>
                 <a
                   href="https://kun.uz/ru/news/2024/11/04/v-uzbekistane-snizyat-tamojyennyye-poshliny-na-import-yuvelirnyx-izdeliy"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center text-[#00BFFF] hover:text-blue-800 transition-colors"
+                  className="flex items-center text-[#0E3074] hover:text-blue-800 transition-colors"
                 >
                   <span className="mr-1">Подробнее</span>
                   <ExternalLink className="w-4 h-4" />
@@ -99,14 +99,14 @@ export default function News() {
               </h2>
               <div className="flex justify-between items-center mt-6">
                 <div className="flex items-center">
-                  <Newspaper className="w-5 h-5 text-[#00BFFF] mr-2" />
+                  <Newspaper className="w-5 h-5 text-[#0E3074] mr-2" />
                   <span className="text-gray-600 text-sm">Источник: Kun.uz</span>
                 </div>
                 <a
                   href="https://kun.uz/ru/news/2024/09/16/uzbekistan-podpisal-soglasheniye-o-sotrudnichestve-v-tamojyennoy-sfere-s-ssha"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center text-[#00BFFF] hover:text-blue-800 transition-colors"
+                  className="flex items-center text-[#0E3074] hover:text-blue-800 transition-colors"
                 >
                   <span className="mr-1">Подробнее</span>
                   <ExternalLink className="w-4 h-4" />
@@ -120,7 +120,7 @@ export default function News() {
               href="https://kun.uz"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center text-[#00BFFF] hover:text-blue-800 transition-colors"
+              className="inline-flex items-center text-[#0E3074] hover:text-blue-800 transition-colors"
             >
               <span className="mr-2">Больше новостей на Kun.uz</span>
               <ExternalLink className="w-4 h-4" />

@@ -85,7 +85,7 @@ const HeaderModal = ({ open, setOpen }) => {
                 <Button
                     loading={loading}
                     type="primary"
-                    className="w-full bg-blue-500 hover:bg-blue-600 transition-all"
+                    className="w-full !bg-[#0E3074] transition-all"
                     onClick={handleModalDataSent}
                 >
                     Отправить заявку

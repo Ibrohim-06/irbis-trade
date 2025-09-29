@@ -5,7 +5,7 @@ const Hero = () => {
         <section className="py-[75px]">
             <div className="containers">
                 <h2 className="font-extrabold md:text-[34px] md:leading-[50px] text-center uppercase text-black">
-                    С НАМИ <span className="uppercase text-[#00bfff]">ВЫ СМОЖЕТЕ БОЛЬШЕ</span>
+                    С НАМИ <span className="uppercase text-[#0E3074]">ВЫ СМОЖЕТЕ БОЛЬШЕ</span>
                 </h2>
                 <div className="max-w-[1200px] mx-auto text-center">
                     <p className="md:text-[21px] leading-[30px] mt-[30px]">
@@ -17,15 +17,15 @@ const Hero = () => {
                     </p>
                     <ul className="flex items-center justify-center flex-wrap mt-[40px] gap-[30px]">
                         <li className="w-[269px]">
-                            <h3 className="text-[#00bfff] text-[42px] font-bold">27 лет</h3>
+                            <h3 className="text-[#0E3074] text-[42px] font-bold">27 лет</h3>
                             <p className="font-bold text-[16px]">безупречной репутации на рынке</p>
                         </li>
                         <li className="w-[269px]">
-                            <h3 className="text-[#00bfff] text-[42px] font-bold">от 3 БРВ</h3>
-                            <p className="font-bold text-[16px]">Консултатсия ВЭД</p>
+                            <h3 className="text-[#0E3074] text-[42px] font-bold">от 3 БРВ</h3>
+                            <p className="font-bold text-[16px]">Консультация ВЭД</p>
                         </li>
                         <li className="w-[269px]">
-                            <h3 className="text-[#00bfff] text-[42px] font-bold">до 15 БРВ</h3>
+                            <h3 className="text-[#0E3074] text-[42px] font-bold">до 15 БРВ</h3>
                             <p className="font-bold text-[16px]">оформление ГТД</p>
                         </li>
                     </ul>

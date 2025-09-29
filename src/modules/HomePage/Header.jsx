@@ -13,15 +13,15 @@ const Header = () => {
             <div className="containers">
                 <div className="pt-[112px]">
                     <div className="text-center mx-auto max-w-[900px] mt-[80px]">
-                        <strong className="uppercase text-[#00bfff] text-[15px] md:text-[24px] mb-[50px]">ТАМОЖЕННОЕ ОФОРМЛЕНИЕ</strong>
+                        <strong className="uppercase text-[#0E3074] text-[15px] md:text-[24px] mb-[50px]">ТАМОЖЕННОЕ ОФОРМЛЕНИЕ</strong>
                         <h2 className="uppercase text-[23px] md:text-[48px] font-bold text-white">Универсальное решение для всех ваших потребностей в таможне и логистике</h2>
                     </div>
                     <ul className="flex items-center justify-center gap-10 md:gap-20 flex-wrap mt-10">
                         {[
-                            { src: 'fast-shipping', text: 'Прозрачная логистика РК' },
-                            { src: 'travel-map', text: 'Таможенное оформление' },
-                            { src: 'warehouse', text: 'Складские услуги' },
-                            { src: 'parcel', text: 'Минимальные риски' }
+                            { src: 'fast-shipping_v1', text: 'Прозрачная логистика РК' },
+                            { src: 'travel-map_v1', text: 'Таможенное оформление' },
+                            { src: 'warehouse_v1', text: 'Складские услуги' },
+                            { src: 'parcel_v1', text: 'Минимальные риски' }
                         ].map((item, index) => (
                             <li key={index} className="flex flex-col items-center">
                                 <img className="" src={`https://pub-5d689109f9c54618b392443e150975a9.r2.dev/images/app_images/${item.src}.svg`} alt={item.src} width="110" />
@@ -32,14 +32,14 @@ const Header = () => {
                     <div className="flex items-center justify-center mt-[50px] gap-[20px]">
                         <Button
                             onClick={() => setOpen(true)}
-                            className="!bg-white !border-none !rounded-full !w-[270px] !h-[55px] !font-bold !transition-all !duration-700 !text-[#00bfff] hover:bg-[#00bfff] hover:text-white !flex !items-center !justify-center"
+                            className="!bg-white !border-none !rounded-full !w-[270px] !h-[55px] !font-bold !transition-all !duration-700 !text-[#0E3074] hover:bg-[#0E3074] hover:text-white !flex !items-center !justify-center"
                         >
                             Оформить груз
                         </Button>
 
                         <Button
                             onClick={() => setOpen(true)}
-                            className="!bg-white !border-none !rounded-full !w-[270px] !h-[55px] !font-bold !transition-all !duration-700 !text-[#00bfff] hover:bg-[#00bfff] hover:text-white !flex !items-center !justify-center"
+                            className="!bg-white !border-none !rounded-full !w-[270px] !h-[55px] !font-bold !transition-all !duration-700 !text-[#0E3074] hover:bg-[#0E3074] hover:text-white !flex !items-center !justify-center"
                         >
                             Получить консультацию
                         </Button>

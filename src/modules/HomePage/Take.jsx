@@ -43,7 +43,7 @@ const Take = () => {
             <Toaster position="top-center" reverseOrder={false} />
             <div className="containers">
                 <h2 data-aos="fade-up" className="text-[35px] text-white leading-[50px] font-bold text-center">
-                    <span className="text-[#00bfff]">ПОЛУЧИТЕ СПЕЦТАРИФЫ</span> ДЛЯ РЕГУЛЯРНЫХ ПОСТАВОК
+                    <span className="text-[#0E3074]">ПОЛУЧИТЕ СПЕЦТАРИФЫ</span> ДЛЯ РЕГУЛЯРНЫХ ПОСТАВОК
                 </h2>
                 <p className="text-[21px] text-white leading-[30px] font-normal text-center my-[30px]" data-aos="fade-up">
                     Предложение с максимальной выгодой <span className="font-bold">для долгосрочных партнеров и клиентов</span>
@@ -55,7 +55,7 @@ const Take = () => {
                             value={username}
                             onChange={(e) => setUserName(e.target.value)}
                             required
-                            className="bg-inherit text-white outline-none border-b-[3px] border-b-slate-300 focus:border-b-[#00bfff] transition-all duration-400 max-w-[550px] p-2"
+                            className="bg-inherit text-white outline-none border-b-[3px] border-b-slate-300 focus:border-b-[#0E3074] transition-all duration-400 max-w-[550px] p-2"
                             type="text"
                         />
                     </label>
@@ -69,7 +69,7 @@ const Take = () => {
                                 value={contact}
                                 onChange={(e) => setContact(e.target.value)}
                                 required
-                                className="bg-inherit text-white outline-none border-b-[3px] border-b-slate-300 focus:border-b-[#00bfff] transition-all duration-400 max-w-[550px] p-3"
+                                className="bg-inherit text-white outline-none border-b-[3px] border-b-slate-300 focus:border-b-[#0E3074] transition-all duration-400 max-w-[550px] p-3"
                                 type="number"
                                 placeholder="998(__) ___-__-__"
                             />
@@ -82,13 +82,13 @@ const Take = () => {
                             value={message}
                             onChange={(e) => setMessage(e.target.value)}
                             required
-                            className="bg-inherit text-white outline-none border-b-[3px] border-b-slate-300 focus:border-b-[#00bfff] transition-all duration-400 max-w-[550px] p-2"
+                            className="bg-inherit text-white outline-none border-b-[3px] border-b-slate-300 focus:border-b-[#0E3074] transition-all duration-400 max-w-[550px] p-2"
                             type="text"
                         />
                     </label>
                     <button
                         type="submit"
-                        className="w-[256px] p-[14px] bg-[#00bfff] rounded-md skew-x-[-6deg] hover:skew-x-[6deg] transition-all duration-500 text-white"
+                        className="w-[256px] p-[14px] bg-[#0E3074] rounded-md skew-x-[-6deg] hover:skew-x-[6deg] transition-all duration-500 text-white"
                     >
                         Получить тарифы
                     </button>

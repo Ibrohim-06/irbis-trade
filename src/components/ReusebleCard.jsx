@@ -30,7 +30,7 @@ const ReusebleCard = ({ item, isBtn, imgClass, extraClass }) => {
           classNames={"!mt-[10px]"}
           size="large"
           type="primary"
-          className="text-[13px] !bg-[#00BFFF] font-bolder"
+          className="text-[13px] !bg-[#0E3074] font-bolder"
         >
           Узнать больше{" "}
         </Button>

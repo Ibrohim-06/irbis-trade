@@ -10,12 +10,12 @@ export default function Options() {
   return (
     <section className="w-full bg-gradient-to-b from-gray-50 to-white py-20">
       <div className='options-section'>
-      <div className='containers !py-[70px]'>
+        <div className='containers !py-[70px]'>
           <h1 className="text-4xl font-bold text-center mb-20 text-white">Наши Услуги</h1>
 
           {/* Excellence in Service */}
-          <div className="flex flex-col md:flex-row gap-16 mb-20">
-            <div className="md:w-1/2">
+          <div className="flex flex-col max-[1023px]:w-full lg:flex-row w-full max-[1023px]:items-center gap-16 mb-20">
+            <div className="min-[1024px]:w-1/2 w-full">
               <h2 className="text-2xl font-bold text-white mb-8 border-b border-blue-200 pb-4">
                 Превосходство в обслуживании
               </h2>
@@ -25,11 +25,11 @@ export default function Options() {
                 каждой услуге, которую предлагаем.
               </p>
             </div>
-            <div className="md:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-8">
+            <div className="lg:w-1/2 grid grid-cols-1 md:w-full sm:grid-cols-2 gap-8">
               <div data-aos="fade-up"
                 data-aos-duration="1000" className="flex flex-col items-start bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                 <div className="w-14 h-14 rounded-full bg-blue-50 flex items-center justify-center mb-4 border border-blue-100">
-                  <Scale className="w-7 h-7 text-[#00BFFF]" />
+                  <Scale className="w-7 h-7 text-[#0E3074]" />
                 </div>
                 <h3 className="text-lg font-medium text-gray-800 mb-3">Индивидуальные консультации</h3>
                 <p className="text-gray-600 text-sm">
@@ -40,7 +40,7 @@ export default function Options() {
               <div data-aos="fade-up"
                 data-aos-duration="1000" className="flex flex-col items-start bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                 <div className="w-14 h-14 rounded-full bg-blue-50 flex items-center justify-center mb-4 border border-blue-100">
-                  <Clock className="w-7 h-7 text-[#00BFFF]" />
+                  <Clock className="w-7 h-7 text-[#0E3074]" />
                 </div>
                 <h3 className="text-lg font-medium text-gray-800 mb-3">24/7 поддержка клиентов</h3>
                 <p className="text-gray-600 text-sm">
@@ -51,7 +51,7 @@ export default function Options() {
               <div data-aos="fade-up"
                 data-aos-duration="1000" className="flex flex-col items-start bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                 <div className="w-14 h-14 rounded-full bg-blue-50 flex items-center justify-center mb-4 border border-blue-100">
-                  <BarChart3 className="w-7 h-7 text-[#00BFFF]" />
+                  <BarChart3 className="w-7 h-7 text-[#0E3074]" />
                 </div>
                 <h3 className="text-lg font-medium text-gray-800 mb-3">Эффективное управление</h3>
                 <p className="text-gray-600 text-sm">
@@ -64,143 +64,166 @@ export default function Options() {
         </div>
       </div>
 
-        {/* Services */}
+      {/* Services */}
 
       <div className="max-w-7xl !py-[70px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid gap-8 md:grid-cols-2 ">
+        <div className="grid gap-6 sm:gap-8 sm:grid-cols-2">
           {/* Consultation */}
-          <div data-aos="fade-up"
-            data-aos-duration="1000" className="bg-white rounded-xl p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-            <div className="flex items-center mb-6">
-              <div className="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center mr-4 border border-blue-100">
-                <FileText className="w-6 h-6 text-[#00BFFF]" />
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="bg-white rounded-xl p-4 sm:p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+          >
+            <div className="flex items-start sm:items-center mb-4 sm:mb-6">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-blue-50 flex items-center justify-center mr-3 sm:mr-4 border border-blue-100">
+                <FileText className="w-5 h-5 sm:w-6 sm:h-6 text-[#0E3074]" />
               </div>
-              <h3 className="text-xl font-bold text-gray-800">Консультация</h3>
+              <h3 className="text-lg sm:text-xl font-bold text-gray-800 leading-snug">
+                Консультация
+              </h3>
             </div>
-            <ul className="space-y-4">
+            <ul className="space-y-3 sm:space-y-4">
               <li className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-[#00BFFF] mr-3 mt-0.5 flex-shrink-0" />
-                <span className="text-gray-700">подборка оптимального код ТН ВЭД</span>
+                <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#0E3074] mr-2 sm:mr-3 mt-0.5 flex-shrink-0" />
+                <span className="text-gray-700 text-sm sm:text-base">
+                  подборка оптимального код ТН ВЭД
+                </span>
               </li>
               <li className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-[#00BFFF] mr-3 mt-0.5 flex-shrink-0" />
-                <span className="text-gray-700">
+                <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#0E3074] mr-2 sm:mr-3 mt-0.5 flex-shrink-0" />
+                <span className="text-gray-700 text-sm sm:text-base">
                   помощь в получении заключений от компетентных организаций, при необходимости.
                 </span>
               </li>
               <li className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-[#00BFFF] mr-3 mt-0.5 flex-shrink-0" />
-                <span className="text-gray-700">
+                <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#0E3074] mr-2 sm:mr-3 mt-0.5 flex-shrink-0" />
+                <span className="text-gray-700 text-sm sm:text-base">
                   определение таможенной стоимости, ставок и расчёт всех обязательных платежей.
                 </span>
               </li>
               <li className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-[#00BFFF] mr-3 mt-0.5 flex-shrink-0" />
-                <span className="text-gray-700">информация по возможности получения льгот при таможенной очистке.</span>
+                <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#0E3074] mr-2 sm:mr-3 mt-0.5 flex-shrink-0" />
+                <span className="text-gray-700 text-sm sm:text-base">
+                  информация по возможности получения льгот при таможенной очистке.
+                </span>
               </li>
             </ul>
           </div>
 
           {/* Contract Support */}
-          <div data-aos="fade-up"
-            data-aos-duration="1000" className="bg-white rounded-xl p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-            <div className="flex items-center mb-6">
-              <div className="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center mr-4 border border-blue-100">
-                <Globe className="w-6 h-6 text-[#00BFFF]" />
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="bg-white rounded-xl p-4 sm:p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+          >
+            <div className="flex items-start sm:items-center mb-4 sm:mb-6">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-blue-50 flex items-center justify-center mr-3 sm:mr-4 border border-blue-100">
+                <Globe className="w-5 h-5 sm:w-6 sm:h-6 text-[#0E3074]" />
               </div>
-              <h3 className="text-xl font-bold text-gray-800">
+              <h3 className="text-lg sm:text-xl font-bold text-gray-800 leading-snug">
                 Сопровождение внешнеэкономических контрактов в части поставки товаров
               </h3>
             </div>
-            <ul className="space-y-4">
+            <ul className="space-y-3 sm:space-y-4">
               <li className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-[#00BFFF] mr-3 mt-0.5 flex-shrink-0" />
-                <span className="text-gray-700">переговоры с поставщиком, также иностранным покупателем.</span>
+                <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#0E3074] mr-2 sm:mr-3 mt-0.5 flex-shrink-0" />
+                <span className="text-gray-700 text-sm sm:text-base">
+                  переговоры с поставщиком, также иностранным покупателем.
+                </span>
               </li>
               <li className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-[#00BFFF] mr-3 mt-0.5 flex-shrink-0" />
-                <span className="text-gray-700">выбор оптимальной логистической схемы INCOTERMS</span>
+                <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#0E3074] mr-2 sm:mr-3 mt-0.5 flex-shrink-0" />
+                <span className="text-gray-700 text-sm sm:text-base">
+                  выбор оптимальной логистической схемы INCOTERMS
+                </span>
               </li>
               <li className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-[#00BFFF] mr-3 mt-0.5 flex-shrink-0" />
-                <span className="text-gray-700">
+                <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#0E3074] mr-2 sm:mr-3 mt-0.5 flex-shrink-0" />
+                <span className="text-gray-700 text-sm sm:text-base">
                   контроль над исполнением сделки, также таможенного оформления данного груза
                 </span>
               </li>
               <li className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-[#00BFFF] mr-3 mt-0.5 flex-shrink-0" />
-                <span className="text-gray-700">
-                  регистрация внешнеторговых контрактов в Единой электронной информационной системе внешнеторговых
-                  операций (ЕЭИС ВО)
+                <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#0E3074] mr-2 sm:mr-3 mt-0.5 flex-shrink-0" />
+                <span className="text-gray-700 text-sm sm:text-base">
+                  регистрация внешнеторговых контрактов в Единой электронной информационной системе внешнеторговых операций (ЕЭИС ВО)
                 </span>
               </li>
             </ul>
           </div>
 
           {/* Customs Clearance */}
-          <div data-aos="fade-up"
-            data-aos-duration="1000" className="bg-white rounded-xl p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-            <div className="flex items-center mb-6">
-              <div className="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center mr-4 border border-blue-100">
-                <FileText className="w-6 h-6 text-[#00BFFF]" />
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="bg-white rounded-xl p-4 sm:p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+          >
+            <div className="flex items-start sm:items-center mb-4 sm:mb-6">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-blue-50 flex items-center justify-center mr-3 sm:mr-4 border border-blue-100">
+                <FileText className="w-5 h-5 sm:w-6 sm:h-6 text-[#0E3074]" />
               </div>
-              <h3 className="text-xl font-bold text-gray-800">Полный комплекс услуг по таможенной очистке</h3>
+              <h3 className="text-lg sm:text-xl font-bold text-gray-800 leading-snug">
+                Полный комплекс услуг по таможенной очистке
+              </h3>
             </div>
-            <ul className="space-y-4">
+            <ul className="space-y-3 sm:space-y-4">
               <li className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-[#00BFFF] mr-3 mt-0.5 flex-shrink-0" />
-                <span className="text-gray-700">
+                <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#0E3074] mr-2 sm:mr-3 mt-0.5 flex-shrink-0" />
+                <span className="text-gray-700 text-sm sm:text-base">
                   полная таможенная очистка товаров на различных постах по всей стране
                 </span>
               </li>
               <li className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-[#00BFFF] mr-3 mt-0.5 flex-shrink-0" />
-                <span className="text-gray-700">
-                  обеспечение процесса досмотра, отбора проб и образцов товаров на таможенных складах с присутствием
-                  инспектора и сертификационных органов.
+                <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#0E3074] mr-2 sm:mr-3 mt-0.5 flex-shrink-0" />
+                <span className="text-gray-700 text-sm sm:text-base">
+                  обеспечение процесса досмотра, отбора проб и образцов товаров на таможенных складах
                 </span>
               </li>
               <li className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-[#00BFFF] mr-3 mt-0.5 flex-shrink-0" />
-                <span className="text-gray-700">
+                <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#0E3074] mr-2 sm:mr-3 mt-0.5 flex-shrink-0" />
+                <span className="text-gray-700 text-sm sm:text-base">
                   составление инвойсов, упаковочных листов и других документов для груза (при экспорте)
                 </span>
               </li>
               <li className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-[#00BFFF] mr-3 mt-0.5 flex-shrink-0" />
-                <span className="text-gray-700">
-                  получение соответствующих сертификатов, также иных разрешительных документов для товаров
+                <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#0E3074] mr-2 sm:mr-3 mt-0.5 flex-shrink-0" />
+                <span className="text-gray-700 text-sm sm:text-base">
+                  получение соответствующих сертификатов, также иных разрешительных документов
                 </span>
               </li>
               <li className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-[#00BFFF] mr-3 mt-0.5 flex-shrink-0" />
-                <span className="text-gray-700">
-                  Обеспечение транспортировки ваших грузов до таможенных или собственных складов.
+                <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#0E3074] mr-2 sm:mr-3 mt-0.5 flex-shrink-0" />
+                <span className="text-gray-700 text-sm sm:text-base">
+                  обеспечение транспортировки грузов до таможенных или собственных складов.
                 </span>
               </li>
             </ul>
           </div>
 
           {/* Logistics */}
-          <div data-aos="fade-up"
-            data-aos-duration="1000" className="bg-white rounded-xl p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-            <div className="flex items-center mb-6">
-              <div className="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center mr-4 border border-blue-100">
-                <Truck className="w-6 h-6 text-[#00BFFF]" />
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="bg-white rounded-xl p-4 sm:p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+          >
+            <div className="flex items-start sm:items-center mb-4 sm:mb-6">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-blue-50 flex items-center justify-center mr-3 sm:mr-4 border border-blue-100">
+                <Truck className="w-5 h-5 sm:w-6 sm:h-6 text-[#0E3074]" />
               </div>
-              <h3 className="text-xl font-bold text-gray-800">Логистические услуги</h3>
+              <h3 className="text-lg sm:text-xl font-bold text-gray-800 leading-snug">
+                Логистические услуги
+              </h3>
             </div>
-            <ul className="space-y-4">
+            <ul className="space-y-3 sm:space-y-4">
               <li className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-[#00BFFF] mr-3 mt-0.5 flex-shrink-0" />
-                <span className="text-gray-700">
-                  организация перевозки груза из Республики Узбекистан в любую точку Мира, а также перевозка из любых
-                  точке в Республику Узбекистан.
+                <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#0E3074] mr-2 sm:mr-3 mt-0.5 flex-shrink-0" />
+                <span className="text-gray-700 text-sm sm:text-base">
+                  организация перевозки груза из Республики Узбекистан в любую точку Мира, а также перевозка в Республику Узбекистан.
                 </span>
               </li>
             </ul>
           </div>
-        </div>
+        </div>    
       </div>
     </section>
   )
