@@ -18,14 +18,14 @@ const Header = () => {
                     </div>
                     <ul className="flex items-center justify-center gap-10 md:gap-20 flex-wrap mt-10">
                         {[
-                            { src: 'fast-shipping_v1', text: 'Прозрачная логистика РК' },
+                            { src: 'fast-shipping_v2', text: 'Прозрачная логистика РК' },
                             { src: 'travel-map_v1', text: 'Таможенное оформление' },
                             { src: 'warehouse_v1', text: 'Складские услуги' },
                             { src: 'parcel_v1', text: 'Минимальные риски' }
                         ].map((item, index) => (
-                            <li key={index} className="flex flex-col items-center">
+                            <li key={index} className="flex flex-col w-[100%] lg:w-[150px] justify-center items-center">
                                 <img className="" src={`https://pub-5d689109f9c54618b392443e150975a9.r2.dev/images/app_images/${item.src}.svg`} alt={item.src} width="110" />
-                                <p className="text-white font-normal">{item.text}</p>
+                                <p className="text-white text-center font-normal">{item.text}</p>
                             </li>
                         ))}
                     </ul>
