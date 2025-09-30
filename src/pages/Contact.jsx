@@ -8,6 +8,7 @@ import {
   EnvironmentOutlined,
   InstagramOutlined,
   LinkedinOutlined,
+  WhatsAppOutlined,
 } from "@ant-design/icons";
 import postContact from '../service/postContact';
 import LoadingModal from '../components/LoadingModal';
@@ -79,11 +80,26 @@ const Contact = () => {
                 <PhoneOutlined className="text-gray-500 text-lg mt-1 mr-3" />
                 <div className='flex flex-col'>
                   <p className="font-medium">Телефон:</p>
-                  <a href="tel:+998934057755" className="!text-[#0E3074] hover:text-white transition-colors">
-                    +998 93 405 77 55
+                  <a href="tel:+998934057755" className="!text-[#0E3074] flex items-center gap-1 hover:text-white transition-colors">
+                     <p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-send-icon lucide-send"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></svg>
+                      </p>
+                    <PhoneOutlined/> 
+                    <span className='inline-block ml-1'>+998 93 405 77 55</span>
                   </a>
-                  <a href="tel:+998975417755" className="!text-[#0E3074] hover:text-white transition-colors">
-                    +998 97 541 77 55
+                  <a href="tel:+998975417755" className="!text-[#0E3074] flex items-center gap-1 hover:text-white transition-colors">
+                     <p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-send-icon lucide-send"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></svg>
+                      </p>
+                    <PhoneOutlined/> 
+                    <span className='inline-block ml-1'>+998 97 541 77 55</span>
+                  </a>
+                  <a href="tel:+998909707771" className="!text-[#0E3074] flex items-center gap-1 text-[14px] hover:text-white transition-colors">
+                    <p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-send-icon lucide-send"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></svg>
+                      </p>
+                    <WhatsAppOutlined/> 
+                    <span className='inline-block ml-[2px]'>+998 90 970 77 71</span> 
                   </a>
                 </div>
               </div>
@@ -107,9 +123,16 @@ const Contact = () => {
                     shape="circle"
                   />
                   <Button
-                  className='!text- !bg-[#0E3074]'
+                  className='!text-white !bg-[#0E3074]'
                     icon={<LinkedinOutlined />}
                     href="https://www.linkedin.com/company/105728056/admin/dashboard/"
+                    target="_blank"
+                    shape="circle"
+                  />
+                  <Button
+                  className='!text-white !bg-[#0E3074]'
+                    icon={<WhatsAppOutlined />}
+                    href="https://wa.me/message/RD6TM4O2SG65I1"
                     target="_blank"
                     shape="circle"
                   />

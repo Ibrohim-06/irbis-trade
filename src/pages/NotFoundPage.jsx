@@ -14,7 +14,7 @@ const NotFoundPage = () => {
 
         <div className="space-y-4">
           <h2 className="text-2xl font-bold tracking-tight">Страница не найдена</h2>
-          <p className="text-white/70">Извините, мы не смогли найти страницу, которую вы ищете. Возможно, она была перемещена, удалена или никогда не существовала.</p>
+          <p className="text-white text-shadow-sm text-shadow-gray-800">Извините, мы не смогли найти страницу, которую вы ищете. Возможно, она была перемещена, удалена или никогда не существовала.</p>
 
           <Link
             to="/"
